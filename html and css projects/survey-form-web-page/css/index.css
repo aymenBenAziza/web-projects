@@ -1,0 +1,104 @@
+body{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg) no-repeat  center center/cover ;
+  background-attachment: fixed; 
+  padding: 40px;
+}
+
+
+
+
+
+label{
+    display: block;
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+}
+
+select{
+    margin: 10px;
+    width: 90%;
+    height: 32px;
+    font-size: medium;
+    padding: 5px;
+}
+
+p{
+    font-size: larger;
+}
+
+
+textarea{
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    font-size: larger;
+}
+
+.button{
+    width: 95%;
+    margin: 15px 0px;
+    padding: 10Px;
+}
+
+.button button{
+    font-size: larger;
+    width: 98%;
+    height: 40px;
+    background-color: #37af65;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.survey-form{
+    width: 50%;
+    margin: auto;
+    
+}
+
+.container{
+    background-color: rgba(27, 27, 50, 0.8);
+    border: none;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.container .Pinfo input{
+    margin-bottom: 30px ;
+    margin-top: 10px;
+    width: 90%;
+    height: 32px;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+
+
+
+
+.Minfo input{
+    margin:10px;
+    width: 20px;
+    height: 20px;
+}
+
+.Einfo input{
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+
+
