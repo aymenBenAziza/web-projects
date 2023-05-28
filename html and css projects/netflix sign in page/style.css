@@ -1,0 +1,162 @@
+body{
+    background: url('/pictures/TN-en-20230522-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg') no-repeat center  ;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.608);
+    z-index: 1;
+}
+
+header{
+    position: relative;
+    padding: 30px 40px;
+    z-index: 2;
+}
+
+header img{
+    width: 170px;
+    height: 48px;
+}
+
+
+.SignIn {
+    width: 420px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.736);
+    z-index: 2;
+    border-radius: 10px;
+    
+}
+
+.SignIn div{
+    width: 65%;
+    margin: 20px auto;
+}
+
+.SignIn h1{
+    color: white;
+}
+
+
+input[type="email"], input[type="password"]{
+    width: 100%;
+    height: 35px;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+}
+
+
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.rememberMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rememberMe a, .new a{
+    text-decoration: none;
+    color: #7b7777;
+}
+
+
+
+.smallP{
+    font-size: medium;
+}
+
+.bleu{
+    color: #0071eb;
+}
+
+.SignIn div:last-child a{
+    color: #0071eb;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #000000ee;
+    position: relative;
+    z-index: 2;
+}
+
+footer section{
+    padding: 60px 0;
+    width: 65%;
+    margin: 70px auto 0 auto;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer ul, footer a, select{
+    list-style: none;
+    text-decoration: none;
+    color: #7b7777;
+    margin: 10px 0;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+footer select{
+    background-color: #000;
+    border: 1px solid #333;
+    width: 150px;
+    height: 40px;
+}
+
+@media (max-width:740px) {
+    .SignIn{
+        width: 100%;
+        height: 100%;
+    }
+
+    footer section{
+        margin: 0 auto;
+    }
+
+    header{
+        background-color: #000000d5;
+    }
+    
+}
