@@ -6,12 +6,10 @@ const CardBlock = () => {
         
       <div className="card-list" id="card-list">
             {
-                Data.map(
-                (lesson) => 
-                    <Card img={lesson.img} rating={lesson.rating} price={lesson.price} title={lesson.title}
-                    country={lesson.country} star={star} id= {lesson.id} />
+                Data.map( (card) => 
+                    <Card { ...card } star={ star } />
                 )
-            }
+            } 
       </div>
         
     );

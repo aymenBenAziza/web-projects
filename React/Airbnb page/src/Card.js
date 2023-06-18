@@ -1,15 +1,17 @@
-const Card = ( {img, country, rating, title, price, star, id} ) => {
+const Card = (props) => {
+    let textBadgt;
+    (props.num === 0) ? textBadgt="sold out" : textBadgt="online";
     return(
-        
-        <div id={id} className="card">    
-            <img src={img} alt="img" className="bigPic"/>
+        <div id={ props.id } className="card">    
+            <div className="sold"><p className="bold">{textBadgt}</p></div>
+            <img src={ props.img } alt="img" className="bigPic"/>
             <div className="card--stats">
-                <img src={star} alt="star" id="star"/>
-                <span>{rating}</span>
-                <span>{country}</span>
+                <img src={ props.star } alt="star" id="star"/>
+                <span>{ props.rating }</span>
+                <span>{ props.country }</span>
             </div>
-            <p>{title}</p>
-            <p><span className="bold">From {price}$</span> / person</p>
+            <p>{ props.title }</p>
+            <p><span className="bold">From { props.price }$</span> / person</p>
         </div>
         
     );

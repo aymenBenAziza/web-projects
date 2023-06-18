@@ -4,28 +4,34 @@ import limg3 from './imgs/mountain-bike 1.png'
 
 const lessonData = [
     
-    {img:limg1,
+    {
+     id:"1",
+     img:limg1,
      rating:'5',
      country:'usa',
      title:"Life lessons with Katie Zaferes",
      price:"135",
-     id:"1"
+     num:3
     },
 
-    {img:limg2,
+    {
+     id:"2",
+     img:limg2,
      rating:'3',
      country:'TN',
      title:"Learn wedding photography",
      price:"500",
-     id:"2"
+     num:0
     },
 
-    {img:limg3,
+    {
+     id:"3",
+     img:limg3,
      rating:'4.8',
      country:'Moroco',
      title:"Group Mountain Biking",
      price:"2000",
-     id:"3"
+     num:4
     },
 
   ]
