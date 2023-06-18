@@ -1,4 +1,4 @@
-const Card = ( {img, country, rating, name, price, star, id} ) => {
+const Card = ( {img, country, rating, title, price, star, id} ) => {
     return(
         
         <div id={id} className="card">    
@@ -8,7 +8,7 @@ const Card = ( {img, country, rating, name, price, star, id} ) => {
                 <span>{rating}</span>
                 <span>{country}</span>
             </div>
-            <p>Life lessons with {name} </p>
+            <p>{title}</p>
             <p><span className="bold">From {price}$</span> / person</p>
         </div>
         

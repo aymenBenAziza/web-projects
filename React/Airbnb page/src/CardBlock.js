@@ -8,7 +8,7 @@ const CardBlock = () => {
             {
                 Data.map(
                 (lesson) => 
-                    <Card img={lesson.img} rating={lesson.rating} price={lesson.price} name={lesson.name}
+                    <Card img={lesson.img} rating={lesson.rating} price={lesson.price} title={lesson.title}
                     country={lesson.country} star={star} id= {lesson.id} />
                 )
             }

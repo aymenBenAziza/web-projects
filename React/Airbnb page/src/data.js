@@ -7,7 +7,7 @@ const lessonData = [
     {img:limg1,
      rating:'5',
      country:'usa',
-     name:"katie",
+     title:"Life lessons with Katie Zaferes",
      price:"135",
      id:"1"
     },
@@ -15,7 +15,7 @@ const lessonData = [
     {img:limg2,
      rating:'3',
      country:'TN',
-     name:"may",
+     title:"Learn wedding photography",
      price:"500",
      id:"2"
     },
@@ -23,7 +23,7 @@ const lessonData = [
     {img:limg3,
      rating:'4.8',
      country:'Moroco',
-     name:"aymen",
+     title:"Group Mountain Biking",
      price:"2000",
      id:"3"
     },
