@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    background-image: linear-gradient(#672280, #A626D3);
+}
+
+
+.input-group{
+    width: 50%;
+    margin: 50px auto;
+    min-width: 460px;
+}
+
+.input-group input{
+    margin: 0 20px;
+    border: 1px solid #D5D4D8;
+}
+
+.bttn{
+    width: 47.5%;
+    margin: 30px auto;
+    text-align: center;
+    min-width: 460px;
+}
+
+.bttn button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+    color: white;
+}
+
+.meme {
+    width: 48%;
+    min-width: 480px;
+    margin: 30px auto;
+    height: 400px;
+    position: relative;
+}
+
+.meme img{
+    width: 100%;
+    height: 100%;
+}
+
+.text1, .text2{
+    position: absolute;
+    color: #FFF;
+    font-size: 47px;
+    font-family: Impact;
+    font-weight: 900;
+}
+
+.text1{
+    top:30px;
+    left: 40%;
+}
+
+.text2{
+    top:330px;
+    left: 40%;
+}
