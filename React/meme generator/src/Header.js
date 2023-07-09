@@ -5,7 +5,7 @@ const Header = _ => {
             <div class="container-fluid ">
                 <div className='d-flex align-items-center'>
                     <img src={logo} alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
-                    <a class="navbar-brand mx-2 text-white" href="#">Bootstrap</a>
+                    <a class="navbar-brand mx-2 text-white" href="#">Meme Generator</a>
                 </div>
             </div>
         </nav>
